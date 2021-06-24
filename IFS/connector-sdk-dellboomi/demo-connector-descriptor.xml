@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenericConnectorDescriptor
+    onPremiseBrowseOnly="false"
+    requireConnectionForBrowse="true">
+    <description>Boomi Connector SDK Demo Connector</description>
+    <field id="url" label="URL" type="string">
+        <helpText>The URL for the Boomi Demo service</helpText>
+        <defaultValue>http://boomi-demo.appspot.com/rest</defaultValue>
+    </field>
+    <operation types="GET|CREATE|DELETE"/>
+    <operation types="UPDATE">
+        <field id="replace" label="Replace" type="boolean">
+            <helpText>Whether the new content is a partial update (false) or a complete replacement (true)</helpText>
+            <defaultValue>false</defaultValue>
+        </field>
+    </operation>
+    <operation types="QUERY">
+        <queryFilter grouping="noNestingImplicitAnd">
+            <operator id="EQUALS" label="Equal To"/>
+            <operator id="NOT_EQUALS" label="Not Equal To"/>
+            <operator id="GREATER_THAN" label="Greater Than"/>
+            <operator id="LESS_THAN" label="Less Than"/>
+            <operator id="GREATER_THAN_OR_EQUALS" label="Greater Than Or Equal"/>
+            <operator id="LESS_THAN_OR_EQUALS" label="Less Than Or Equal"/>
+            <operator id="IN_LIST" label="In">
+                <helpText>Comma separated list of values</helpText>
+            </operator>
+        </queryFilter>
+    </operation>
+
+    <!-- If an operation doesn't fall under one of the standard operation types a custom operation can be created -->
+    <operation types="EXECUTE" customTypeId="ECHO" customTypeLabel="Echo Fields">
+        <field id="integerField" label="Integer Field" type="integer">
+            <helpText>This field will only accept integer values</helpText>
+        </field>
+        <field id="stringField" label="String Field" type="string">
+            <helpText>This field will accept any string value</helpText>
+        </field>
+        <field id="passwordField" label="Password Field" type="password">
+            <helpText>This field will accept any string value and save it encrypted throughout the system</helpText>
+        </field>
+        <field id="listField" label="List Field" type="string" displayType="list">
+            <helpText>This field allows you to specify a list of allowed values and provides a drop down for selecting a value</helpText>
+            <allowedValue><value>Hello</value></allowedValue>
+            <allowedValue><value>Hi</value></allowedValue>
+            <allowedValue><value>Greetings</value></allowedValue>
+        </field>
+        <field id="radioField" label="Radio Field" type="integer" displayType="radio">
+            <helpText>This field allows you to specify a list of allowed values and provides radio buttons for selecting a value</helpText>
+            <defaultValue>2</defaultValue>
+            <allowedValue label="One"><value>1</value></allowedValue>
+            <allowedValue label="Two"><value>2</value></allowedValue>
+            <allowedValue label="Three"><value>3</value></allowedValue>
+        </field>
+        <field id="booleanField" label="Boolean Field" type="boolean">
+            <helpText>This field stores a boolean value</helpText>
+        </field>
+    </operation>
+
+</GenericConnectorDescriptor>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<GenericConnectorDescriptor
+    browsingType="cloud"
+    requireConnectionForBrowse="true">
+    <description>Alliance cloud conenctor for dellboomi</description>
+    <field id="url" label="URL" type="string">
+        <helpText>A URL for getting help</helpText>
+        <defaultValue>https://alliance.com</defaultValue>
+    </field>
+    <field id="user" label="User" type="string">
+        <helpText>A valid User for authentication</helpText>
+        <defaultValue></defaultValue>
+    </field>
+    <field id="password" label="Password" type="password">
+        <helpText>A valid password for authentication</helpText>
+        <defaultValue></defaultValue>
+    </field>
+    <field id="profile" label="Profile" type="string">
+        <helpText>A valid profile name to connect to</helpText>
+        <defaultValue></defaultValue>
+    </field>
+    <testConnection method="CUSTOM"/>
+    <operation types="EXECUTE"/>
+    
+</GenericConnectorDescriptor>
+

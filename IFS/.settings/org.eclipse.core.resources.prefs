@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/org/datacontract/schemas/_2004/_07/Astea_AO_Interfaces_Contracts/AsteaAPIResponce.java=UTF-8
+encoding//src/main/java/org/datacontract/schemas/_2004/_07/Astea_AO_Interfaces_Contracts/FieldMetadataForLogicApp.java=UTF-8
+encoding//src/main/java/org/datacontract/schemas/_2004/_07/Astea_AO_Interfaces_Contracts/ModuleMetadataForLogicApp.java=UTF-8
+encoding//src/main/java/org/tempuri/LogicAppsService.java=UTF-8
+encoding//src/main/java/org/tempuri/LogicAppsServiceLocator.java=UTF-8
+encoding//src/main/java/org/tempuri/SimpleStub.java=UTF-8
+encoding//src/main/java/wcf/services/astea/ILogicAppsServiceContract.java=UTF-8

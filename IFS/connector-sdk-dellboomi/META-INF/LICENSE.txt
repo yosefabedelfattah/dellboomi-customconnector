@@ -1,0 +1,525 @@
+BOOMI ATOMSPHERE SDK LICENSE AGREEMENT
+
+RELATING TO BOOMI CONNECTORS BUILT BY THE COMPANY
+
+THIS BOOMI ATOMSPHERE SDK LICENSE AGREEMENT and attached Exhibits (collectively, the “SDK Agreement”) is made and entered
+
+into as of the date of acceptance of the terms and conditions set forth below (the “SDK Agreement Effective Date”) by and between Boomi,
+
+Inc., a corporation organized under the laws of the State of Delaware, with a place of business at 1400 Liberty Ridge Drive, Chesterbrook,
+
+PA 19087 (“Boomi), and the company represented by the individual accepting this SDK Agreement on the company’s behalf (“Company”) (each, a “Party” and, collectively, the “Parties”).
+
+WHEREAS, the Company intends to build Boomi Connector(s) using the Boomi SDK (as defined below).
+
+WHEREAS, Boomi has created the Boomi SDK (as defined below) and Documentation (as defined below) for use by the Company for the sole
+
+purpose of building Boomi Connector(s).
+
+IF THE COMPANY AGREES TO THE TERMS AND CONDITIONS SET FORTH IN THIS SDK AGREEMENT, PLEASE CLICK ON THE
+
+“AGREE” BUTTON BELOW. THIS WILL CONSTITUTE A BINDING AGREEMENT BETWEEN THE COMPANY AND BOOMI. IF THE
+
+COMPANY DOES NOT AGREE TO THE TERMS AND CONDITIONS SET FORTH IN THIS SDK AGREEMENT, PLEASE CLICK THE
+
+“CANCEL” BUTTON. YOU WILL NOT BE PERMITTED TO USE THE BOOMI SDK UNLESS YOU AGREE TO THE TERMS AND
+
+CONDITIONS OF THIS SDK AGREEMENT.
+
+
+
+1.
+
+Definitions.
+
+
+
+1.1.
+
+“Affiliate” means any Person which controls, is controlled by, or is under common control with a Party.
+
+1.2. “Application” means a single instance of any file, program or database that may be integrated with another single instance of any
+
+file, program and/or database using the Boomi AtomSphere Product.
+
+1.3. “Boomi AtomSphere” means the Boomi integration-platform-as-a-service (iPaaS), which enables the Company, a Third Party, or a
+
+Third Party Customer to develop and deploy one or more Boomi Connectors within a Company Account or related Sub Account(s).
+
+1.4. “Boomi AtomSphere Product” means the web-based software and related Boomi Services, developed, provided, and hosted by
+
+Boomi, that enable End Users to design, build, and execute Integration Processes, and includes the Boomi Atom (as defined herein), the Boomi Connector (as defined herein), and the Boomi Integration Tools (as defined herein).
+
+1.5.
+
+“Boomi Competitor(s)” means any individual or organization that provides in-kind and/or comparable technology to the Boomi
+
+Technology, including, but not limited to, the performance of data migration, integration and/or translation services.
+
+1.6. “Boomi Connector” means the software code which uses the Company’s application programming interface (API) to enable
+
+Connection(s) to the Company Product.
+
+1.7. “Boomi Integration Tools” means the web-accessible design interface and library of components developed by Boomi, including, but
+
+not limited to, Boomi Connectors, transformation maps, error handling modules, decision handling modules, and processing logic that enables
+
+an End User to design, create, build, and manage an Integration Process.
+
+1.8. “Boomi SDK” means the software described in Exhibit A attached to this SDK Agreement, including any Updates thereto.
+
+1.9. “Boomi Services” means any training, maintenance, and/or support services in connection with the Boomi AtomSphere Product.
+
+1.10. “Boomi Technology” means all of Boomi’s proprietary technology (including software, hardware, products, processes, algorithms,
+
+user interfaces, know-how, techniques, designs and other tangible or intangible technical material or information) made available to Company
+
+by Boomi and includes the Boomi Atom (as defined herein), the Boomi AtomSphere (as defined herein), the Boomi Connector (as defined
+
+herein), the Boomi Integration Tools (as defined herein), and Boomi Services provided by Boomi.
+
+1.11. “Company Product(s)” means any product and/or service provided by the Company for which the Company intends to build Boomi
+
+Connector(s) using the Boomi SDK in accordance with this SDK Agreement.
+
+1.12. “Connection” means each instance in which an End User has used the Boomi Integration Tools to integrate one Application to
+
+another Application.
+
+1.13.
+
+“End User” or “Customer” means any Third Party Customer granted access to the Boomi AtomSphere Product by the Company.
+
+1.14. “Integration Process” means a process and/or workflow customized and/or configured using the Boomi Integration Tools to integrate
+
+data between Applications.
+
+1.15. “SDK Documentation” means the documentation created or provided by Boomi relating to the Boomi SDK, which includes all
+
+functional specifications for the Boomi SDK. Such documentation will be available via the Boomi AtomSphere secure website.
+
+1.16. “Term” means the period beginning on the SDK Agreement Effective Date and ending on the date on which this SDK Agreement
+
+terminates pursuant to Section 6.
+
+1.17. “Third Party” means any Person except Boomi, Company, and their respective Affiliates.
+
+1.18. “Third Party Customer(s)” means any Third Party user of an Application provided by the Company.
+
+1.19. “Updates” means all upgrades, improvements, bug fixes and other modifications to the Boomi SDK that Boomi generally provides to
+
+their licensees of the Boomi SDK.
+
+2.
+
+License Grant.
+
+
+
+2.1.
+
+Grant of a Limited License. Boomi grants to the Company a limited, worldwide, non-exclusive, non-transferable, royalty-free,
+
+revocable right and license to use the Boomi SDK to enable the Company to build Boomi Connector(s) solely for Company’s non-production,
+
+internal use with the Company’s and/or Third Party products. This license grant does not provide the Company with the authority or right to
+
+deploy or distribute any Company-built Boomi Connector(s). The right to deploy or distribute the Company-built Boomi Connector(s) shal be
+
+governed by a separate Boomi Master Subscription Agreement, or OEM, Reseller, or Value-Added Distributor License Agreement by and
+
+between Company and Boomi.
+
+2.2. Related Company Obligations. Company shall: (1) provide Boomi with all software code relating to the Company-built Boomi
+
+Connector; (2) require any Third Party who desires to enhance or modify the functionality of that portion of the Company Product(s) that relate
+
+to the Boomi Connector to license from Boomi a Boomi SDK for its own use; (3) insert appropriate copyright, patent and trademark notices in
+
+the documentation relating to the Company Product(s) and in the operations manuals provided to a Third Party acknowledging Boomi’s rights
+
+in the Boomi Connector in substantially the following form: “Portions Copyright 200X Boomi, Inc. All rights reserved.”; and (4) grant to Boomi a
+
+perpetual, royalty-free, irrevocable license to: i) use any Company-built Boomi Connector; and ii) any trademark rights associated with the Company-built Boomi Connector(s), including but not limited to the trademark(s) identified in Exhibit B of this SDK Agreement.
+
+2.3. Limitations on Use. Company shall not (i) use or copy the Boomi SDK or SDK Documentation for any purpose other than as
+
+specified in this SDK Agreement; (ii) make available to any Third Party any of the development capabilities of the Boomi SDK; (iv) include the
+
+Boomi SDK as part of a development tool, or software development kit; (v) disassemble, reverse engineer or decompile the Boomi SDK; (vi)
+
+allow a Third Party to disassemble, reverse engineer or decompile the Boomi SDK; (vii) rent or lease the Boomi SDK, (viii) re-export the Boomi
+
+SDK without appropriate licenses; or (ix) license or make available the Boomi SDK or Boomi Technology to any Boomi Competitor unless
+
+Boomi provides its formal written consent to same.
+
+2.4. Fees. Company has no right or entitlement to charge End Users for the use of the Company-built Boomi Connector. In the event
+
+the Company and Boomi enter into a corresponding Master Subscription Agreement or OEM, Reseller, or Value-Added Distributor License
+
+Agreement, Company shall compensate Boomi for all use of Connections utilizing the Company-built Boomi Connector in accordance
+
+therewith.
+
+3.
+
+Representations and Warranties; Disclaimer.
+
+
+
+3.1.
+
+Boomi Warranties. Boomi warrants to Company that: (i) during the Term of this SDK Agreement, the Boomi SDK will materially
+
+conform with its SDK Documentation and (ii) Boomi has the power and authority to grant the license granted by this SDK Agreement to Company.
+
+3.2. Company Warranties. Company warrants to Boomi that (i) the software code relating to the Company-built Boomi Connector has
+
+not and shal not be licensed to any Third Party in a manner that violates the terms and conditions of this SDK Agreement; (ii) the software
+
+code relating to the Company-built Boomi Connector is free from any malicious code that interferes in any way with the intended operation of
+
+the Boomi AtomSphere Product, and/or the Boomi AtomSphere; (iii) the use of the Company-built Boomi Connector does not violate Boomi’s
+
+privacy policies; (iv) any Company-built Boomi Connector does not and shall not infringe any Third Party’s intellectual or industrial property
+
+rights recognized under United States law, including, but not limited to, copyrights, mask work rights, moral rights, trade secrets, patent rights, rights in inventions, trademarks, trade names, service marks or domain names; and (v) the individual accepting this SDK Agreement is authorized to act on behalf of the Company and has full power and authority to bind the Company to this SDK Agreement.
+
+3.3. Disclaimer of Other Warranties. Other than as expressly set forth herein in Section 3.1, the Boomi SDK is provided on an "AS IS"
+
+basis, and Boomi does not warrant the performance of, or the results to be obtained from using, the Boomi SDK and/or any Boomi Connector,
+
+and disclaims all other warranties, whether express, implied or statutory. This disclaimer of warranty constitutes an essential part of this SDK
+
+Agreement.
+
+4.
+
+Limitation of Liability.
+
+
+
+EXCEPT AS SPECIFICALLY CONTAINED IN SECTION 3.1, IN NO EVENT SHALL BOOMI BE LIABLE TO COMPANY, ITS
+
+AFFILIATES, OR ANY THIRD PARTY FOR ANY LOST PROFITS OR LOST REVENUE, OR FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+
+PUNITIVE, EXEMPLARY OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH THIS SDK AGREEMENT.
+
+
+
+THE PARTIES HAVE RELIED UPON THE LIMITATIONS SET FORTH HEREIN IN DETERMINING WHETHER TO ENTER INTO
+
+THIS SDK AGREEMENT. THE REMEDIES PROVIDED TO COMPANY, END-USERS AND AFFILIATES IN THIS SDK AGREEMENT ARE
+
+EXCLUSIVE.
+
+
+
+IN NO EVENT WILL BOOMI’S LIABILITY FOR DAMAGES OR ALLEGED DAMAGES UNDER THIS SDK AGREEMENT,
+
+WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, EXCEED THE AMOUNT OF FEES PAID TO BOOMI IN THE LAST
+
+TWELVE (12) MONTHS.
+
+5.
+
+Indemnification.
+
+
+
+5.1.1. Boomi Indemnification. Boomi shall indemnify, defend and hold Company harmless against any expense, judgment or loss arising out
+
+of, or relating to (i) any gross negligence, willful or reckless acts or omissions, or fraud of or by Boomi; and (ii) infringement by the Boomi
+
+SDK of any Third Party’s intellectual or industrial property rights recognized under United States law, including, but not limited to, copyrights,
+
+mask work rights, moral rights, trade secrets, patent rights, rights in inventions, trademarks, trade names, service marks or domain names.
+
+5.2. Exceptions to the Boomi Indemnification Obligations. Boomi shall not be obligated to indemnify Company hereunder to the extent (i)
+
+Company fails to give Boomi prompt notice of any claim pursuant to Section 5.1, appropriate authority to settle or defend the claim, or the
+
+information and assistance reasonably necessary to conduct the defense of the claim; or (ii) the claim arises from or is based upon use by
+
+Company or any Third Party of (a) the Boomi SDK in a manner for which it was not intended; or (b) any unauthorized enhancements, modifications, alteration or implementation of the Boomi SDK; or (iii) the claim arises from use of the Boomi SDK in combination with unauthorized modules, apparatus, hardware, software or services; or (iv) any use of the Boomi SDK which violates this SDK Agreement or any
+
+applicable law or regulation of any governmental authority or self-regulatory agency or authority; or (v) any use of the Boomi SDK for which the
+
+software was not designed, or (vi) any claim that the Boomi Connector developed by Company or its use infringes any Third Party’s rights, if
+
+such infringement does not arise directly from the Boomi SDK; or (vii) any unauthorized use of the Boomi AtomSphere including, but not limited
+
+to, the unauthorized posting, release, or deployment of a non-Boomi Connector in the Boomi AtomSphere.
+
+5.3. Company Indemnification. Company shall indemnify, defend and hold Boomi harmless against any expense, judgment or loss
+
+arising out of, or relating to (i) any gross negligence, reckless, or intentional acts or omissions, or fraud by Company or its agents; (ii) Company’s use, operation, or provisioning of access to any Boomi SDK; (iii) any claim, regardless of the merit of such claim, by a Third Party,
+
+including any Third Party Customer, arising out of, or relating to, the Boomi SDK, including, but not limited to, any claim that the Boomi Connector developed by Company, or use thereof, infringes any Third Party’s rights, except to the extent Boomi is obligated to indemnify Company under Section 5.1 of this SDK Agreement; and (iv) any breach by Company of its representations, warranties, or covenants hereunder.
+
+5.4. Procedures for Handling Indemnification Claims.
+
+5.4.1. In the event of any claim for which indemnification is available, the indemnified Party shall give prompt written notice of any such
+
+claim to the indemnifying Party; provided, however, that the failure of the indemnified Party to give timely notice hereunder will not affect its
+
+rights to indemnification hereunder, except to the extent that the indemnifying Party can demonstrate actual, material prejudice as a result of
+
+such failure.
+
+5.4.2. Within thirty (30) days after receiving the indemnified Party’s notice of a claim, but no later than ten (10) days before the date on
+
+which any formal response to the claim is due, the indemnifying Party will notify the indemnified Party in writing as to whether the indemnifying
+
+Party acknowledges its indemnification obligation and elects to assume control of the defense and settlement of the claim (a “Notice of Election”).
+
+
+5.4.3.
+
+The indemnifying Party shal have the right to control and direct the investigation, defense and settlement of each such claim;
+
+provided, however, that if the indemnifying Party does not deliver a timely Notice of Election, the indemnified Party shal have sole control of the defense and settlement of such claim, and may defend and/or settle the claim in such manner as it may deem appropriate, at the cost and
+
+expense of the indemnifying Party, including payment of any settlement, judgment or award and the costs of defending or settling the claim.
+
+
+
+5.4.4.
+
+The indemnified Party may participate in the defense of the claims by counsel of its own choosing which is reasonably acceptable to
+
+the indemnifying Party, at its own cost and expense.
+
+
+
+5.4.5.
+
+The Parties will fully cooperate with each other in the defense of any such claim and will make available to each other any books or
+
+records useful for the defense of any such claim.
+
+
+
+5.4.6.
+
+The indemnifying Party shall not enter into any settlement or resolution of any claim that would affect any of the indemnified Party’s
+
+rights or obligations, or that would constitute an admission of guilt or liability on the part of the indemnified Party, without the indemnified Party’s express prior written consent.
+
+
+
+5.4.7.
+
+Provided that the indemnifying Party has elected to control the defense of a claim, the indemnified Party will not settle, or consent to
+
+any entry of judgment with respect to, any claim without obtaining the prior, written consent of the indemnifying Party.
+
+6.
+
+Term and Termination/Cancellation.
+
+
+
+6.1.
+
+Term. This SDK Agreement shall commence on the SDK Agreement Effective Date and shall continue in full force and effect: i) for
+
+a period of two (2) years, or ii) during the Initial Term of any corresponding Master Subscription Agreement or OEM, Reseller, or Value-Added
+
+Distributor License Agreement (as defined in the corresponding Master Subscription Agreement or OEM, Reseller, or Value-Added Distributor
+
+License Agreement), whichever is shorter, unless terminated in accordance with the provisions herein or upon termination of the corresponding
+
+Master Subscription Agreement or OEM, Reseller, or Value-Added Distributor License Agreement.
+
+
+
+6.2.
+
+Termination for Cause. Notwithstanding anything contained in this SDK Agreement to the contrary, the non-defaulting Party may
+
+terminate this Agreement, in whole or in part, (i) with respect to the occurrence of a default under a corresponding Master Subscription Agreement or OEM, Reseller, or Value-Added Distributor License Agreement or under Section 2 (“License Grant”) of this SDK Agreement,
+
+immediately, or (ii) with respect to all other defaults, upon the defaulting Party’s failure to cure such default within thirty (30) days after the non-defaulting Party has notified the defaulting Party in writing of such default. Each of the following events shall be deemed a default permitting
+
+termination for cause:
+
+
+
+6.2.1.
+
+Failure by Company to pay any undisputed sum of money due by it hereunder or under a corresponding Master Subscription
+
+Agreement or OEM, Reseller, or Value-Added Distributor License Agreement,
+
+
+
+6.2.2.
+
+Company (i) becomes subject to the control of a trustee, receiver or similar authority; (ii) makes an assignment for the benefit of
+
+creditors; (iii) is unable to pay debts as they become due; or (iv) becomes subject to any bankruptcy or insolvency proceeding and such proceeding is not dismissed within sixty (60) days.
+
+
+
+6.3.
+
+Termination for Convenience. Either party may terminate this Agreement for convenience, in whole or in part, by giving the other
+
+Party at least ninety (90) days prior written notice of the termination date.
+
+
+
+6.4.
+
+Survival of Sections. Section 2.2(4), Section 3 (“Representations and Warranties; Disclaimer”), Section 4 (“Limitation of Liability”),
+
+Section 5 (“Indemnification”), and this Section 6.4 shall survive any termination or expiration of this SDK Agreement.
+
+
+
+7.
+
+Notices.
+
+
+
+All notices and other communications required or permitted to be given to a Party pursuant to this SDK Agreement shall be in writing, and shal
+
+be deemed duly given (i) on the date delivered if personally delivered, (ii) on the date sent by telecopier with automatic confirmation by the
+
+transmitting machine showing the proper number of pages were transmitted without error, (iii) on the business day after being sent by Federal
+
+Express or another recognized overnight courier service which utilizes a written form of receipt for next day or next business day delivery, or
+
+(iv) five (5) Business Days after mailing, if mailed by United States postage-prepaid certified or registered mail, return receipt requested, in
+
+each case addressed to the applicable Party at the address listed below:
+
+
+If to Boomi:
+
+
+
+Boomi, Inc.
+
+Attn: Chief Financial Officer
+
+1400 Liberty Ridge Drive, 
+
+Chesterbrook, PA 19087
+
+If to Company:
+
+______________
+
+______________
+
+______________
+
+
+
+Any notice, consent, approval and other communication shall be deemed given, in the case of overnight courier service, on the next business
+
+day following its deposit with the courier, and, in the case of facsimile or e-mail, upon transmission if confirmed by courier as set forth above.
+
+
+
+Any notice, consent, approval and other communication shall be deemed given, in the case of overnight courier service, on the next business
+
+day following its deposit with the courier, and, in the case of facsimile or e-mail, upon transmission if confirmed by courier as set forth above.
+
+
+
+8.
+
+Assignment.
+
+
+
+This SDK Agreement may not be assigned or otherwise transferred by Company without the prior written consent of Boomi, which consent will
+
+not be unreasonably withheld or denied, and any attempt to assign any rights, duties or obligations which arise under this SDK Agreement
+
+without such written consent shall be null and void. However, Boomi may, without the consent of Company, assign this SDK Agreement to any
+
+person or entity that is acquiring all or substantially all of its assets or which is a successor by merger, consolidation, acquisition of stock or assets, or other business combination.
+
+
+
+9.
+
+Governing Law/Jurisdiction.
+
+
+
+The state of Delaware, United States of America, shall govern the interpretation and enforcement of this SDK Agreement and any dispute
+
+arising out of or related to this SDK Agreement, without giving effect to any conflict of laws principles that may cause the law of any other
+
+jurisdiction to apply. The Parties irrevocably submit to the exclusive jurisdiction of the courts of the State of Delaware and the United States
+
+District Court located in Delaware, and the appellate courts thereof. Each Party hereby waives any jurisdictional, venue, or inconvenient forum
+
+objections to such courts.
+
+
+
+EXHIBIT A
+
+
+
+Description of the Boomi SDK
+
+The Boomi SDK is a toolkit that enables a Java developer to build a Boomi Connector. A Boomi Connector is a software component that
+
+connects an Application to the AtomSphere. Once connected, that Application can integrate with any of the hundreds of Applications supported
+
+by Boomi. This is key to Boomi’s unique “Connect once, integrate everywhere” approach to integration. The Boomi SDK is based on Java 1.6,
+
+and provides facilities for publishing (private or public) a Boomi Connector, updating a Boomi Connector, and a test harness for initial and
+
+ongoing testing requirements. The entire experience is designed to be self-service, enabling the Boomi Connector developer to build, publish
+
+and manage their Boomi Connector on the Boomi AtomSphere.
+
+A Boomi Connector is a small Application module that wraps and “describes” an Application Programming Interface (API) so that it can be
+
+utilized without requiring programming skills. The Boomi Atom then invokes the Boomi Connector at runtime to interact with a particular Application, such as to add new data or read data from the Application.
+
+Once created, this Boomi Connector completely abstracts the technical details described above from the End User. The End User simply logs
+
+in to Boomi AtomSphere, specifies the Application they wish to connect, and walks through a wizard that prompts them for information on how
+
+to connect to said Application, what exactly they want to integrate, etc.
+
+
+
+EXHIBIT B
+
+
+
+
+
+BOOMI MARKS
+
+
+
+
+
+BOOMI
+
+BOOMI ATOMSPHERE
+
+BOOMI ATOM
+
+BOOMI ON DEMAND
+
+INTEGRATE ONCE - CONNECT EVERYWHERE
+
+INTEGRATE NOW!
+
+
+
+
